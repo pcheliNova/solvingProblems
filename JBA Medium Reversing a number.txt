@@ -3,11 +3,6 @@
 
 
 fun main() {
-    
-    val base = readln().toInt()
-    val num1 = base % 10 // result 9
-    val num2 = (base % 100)/10 //result 2
-    val num3 = base / 100 //result 6
-    val result = "$num1$num2$num3"
-    println(result)
+    val digit = readln().toInt()
+    print("${digit % 10 }${digit / 10 % 10}${digit / 100}")
 }
