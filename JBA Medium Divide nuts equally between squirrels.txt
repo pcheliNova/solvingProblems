@@ -1,6 +1,0 @@
-fun main() {
-    val sq = readln().toInt()
-    val nuts = readln().toInt()
-    val result = nuts / sq
-    println(result)
-}
