@@ -1,8 +1,6 @@
-//Write a program that reads a three-digit number, 
-//reverses the order of its digits, and outputs a new num
-
-
 fun main() {
-    val digit = readln().toInt()
-    print("${digit % 10 }${digit / 10 % 10}${digit / 100}")
+    val num = readln()
+    val reversed = num.reversed()
+
+    print(reversed)
 }
