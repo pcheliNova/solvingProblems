@@ -1,0 +1,6 @@
+fun square(a: Int) = a * a
+
+fun main() {
+    val number = readLine()!!.toInt()
+    println(square(number))
+}
